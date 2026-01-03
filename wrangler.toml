@@ -1,0 +1,8 @@
+name = "coin-backend"                # nama Worker
+main = "worker.js"                   # file entry-point Worker
+compatibility_date = "2026-01-03"    # tanggal kompatibilitas Cloudflare
+
+# KV Namespace Binding
+kv_namespaces = [
+  { binding = "COINS_KV_NAMESPACE", id = "8e95bbed55f04c169ad372a7ad78a8e2" }
+]
