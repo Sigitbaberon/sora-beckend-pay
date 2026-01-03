@@ -3,5 +3,5 @@ main = "worker.js"
 compatibility_date = "2026-01-03"
 
 [[kv_namespaces]]
-binding = "MY_BINDING"
+binding = "COINS_KV_NAMESPACE"
 id = "633167e54fe14122a813144aee301692"
